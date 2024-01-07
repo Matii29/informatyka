@@ -1,5 +1,3 @@
-import time
-
 library = [{"ID": 1, "title": "Lord of the rings", "Price": "33.49 PLN", "shelf": "A46"},
            {"ID": 2, "title": "Hobbit", "Price": "39.99 PLN", "shelf": "F03"},
            {"ID": 3, "title": "Rodzina Monet", "Price": "44.90 PLN", "shelf": "M21"}]
@@ -120,6 +118,5 @@ def printstartmessage():
 
 # ------- THE RUNNING CODE --------- #
 printstartmessage()
-time.sleep(2)
 while running:
     actions()
